@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+head,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+}
+.sub-header {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 300;
+	padding: 5px;
+}
+form {
+	max-width: 80%;
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+}
+.inputs{
+    margin-bottom: 14px;
+    /* border: 4px solid purple; */
+}
+label{
+	display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+input{
+    width:97%;
+    padding:7px;
+	border-style: solid;
+	border-width:1px;
+	border-color:lightgray;
+	border-radius:5px;
+}
+select{
+    width:100%;
+    padding:8px;
+	border:1px solid lightgray;
+	border-radius: 5px;
+}
+.terms{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center;
+	margin-top: 5px;
+}
+input[type='checkbox'] {
+	cursor:pointer;
+    accent-color: rgb(0, 123, 231);
+}
+.subButton{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	/* border: 2px solid red; */
+	max-width:100%;
+	text-align: center;
+}
+input[type=submit]{
+	height:40px;
+	width:65%;
+	color:#fff;
+	cursor:pointer;
+	background-color: #ffa500;
+	border-radius: 30px;
+	font-weight: bold;
+	border: 3px solid #ffa500;
+}
